@@ -1,0 +1,30 @@
+/* * {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+} */
+body {
+    text-align: center;
+}
+
+#board {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+.square{
+    display: inline-block;
+    border: 1px solid black;
+    width: 32%;
+    height: 32%;
+    vertical-align: top;
+}
+
+#message-box{
+    height: 75px;
+}
+
+button {
+    margin: 0 auto;
+}
