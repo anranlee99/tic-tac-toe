@@ -69,7 +69,7 @@ function render(){
     if (!winner && board.every(square => square)){
         messageDisplayEl.innerText =  "Cat's Game";
     } else if (!winner){
-        messageDisplayEl.innerText =  `${PLAYER_LOOKUP[turn].name}'s turn'`;
+        messageDisplayEl.innerText =  `${PLAYER_LOOKUP[turn].name}'s turn`;
     }   
     else   {
         messageDisplayEl.innerText =  `${PLAYER_LOOKUP[winner].name} has won!`;
