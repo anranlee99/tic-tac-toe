@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 } */
-body {
+/* body {
     text-align: center;
 }
 
@@ -19,6 +19,36 @@ body {
     width: 32%;
     height: 32%;
     vertical-align: top;
+}
+
+#message-box{
+    height: 75px;
+}
+
+button {
+    margin: 0 auto;
+} */
+
+body {
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    height: 306px;
+    width: 306px;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.square{
+    display: flex;
+    border: 1px solid black;
+    width: 100px; 
+    height: 100px; 
+    justify-content: center;
+    align-items: center;
 }
 
 #message-box{
